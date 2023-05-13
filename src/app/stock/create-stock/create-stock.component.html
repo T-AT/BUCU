@@ -23,7 +23,7 @@
     </div>
     <div *ngIf="stockCode.dirty && stockCode.invalid">
       <div *ngIf="stockCode.errors?.required">Stock Code is Mandatory</div>
-      <div *ngIf="stockCode.errors?.minlength">Stock Code must be atleast of length 2</div>
+      <div *ngIf="stockCode.errors?.minlength">Stock Code must be at least of length 2</div>
     </div>
     <div class="stock-price">
       <input type="number"
